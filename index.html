@@ -1,74 +1,78 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lorenzo Domenighini</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
+      margin: 0;
+      background-color: #fff;
+      color: #000;
     }
-
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 40px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ccc;
     }
-
-    .title {
-      font-size: 24px;
-      font-weight: bold;
-      text-align: center;
-      flex-grow: 1;
+    header h1 {
+      margin: 0 auto;
+      font-size: 1.5rem;
     }
-
     nav {
-      display: flex;
-      gap: 20px;
+      position: absolute;
+      right: 2rem;
     }
-
     nav a {
+      margin-left: 1rem;
       text-decoration: none;
-      color: #333;
-      font-weight: bold;
+      color: #000;
     }
-
-    nav a:hover {
-      color: #007BFF;
-    }
-
     main {
       text-align: center;
-      padding: 100px 20px;
+      padding: 4rem 2rem;
     }
-
-    h1 {
-      font-size: 36px;
-      color: #333;
+    .content {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+    img {
+      max-width: 100%;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <div class="title">Lorenzo Domenighini</div>
+    <h1>Lorenzo Domenighini</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="portfolio.html">PORTFOLIO</a>
+      <a href="contact.html">CONTACT</a>
     </nav>
   </header>
 
   <main>
-    <h1>Benvenuti nel mio sito!</h1>
-    <p>Presto aggiungerò nuovi contenuti.</p>
+    <img src="your-image.jpg" alt="Sketch" style="max-height: 300px; margin-bottom: 2rem;">
+    <h2>THANKS FOR VISITING</h2>
   </main>
+
+  <footer>
+    &copy; 2025 Lorenzo Domenighini
+  </footer>
+</body>
+</html>
+
 
 </body>
 </html>
